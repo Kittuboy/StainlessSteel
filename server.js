@@ -14,7 +14,7 @@ dotenv.config();
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: ["https://stirring-pithivier-5bafe2.netlify.app"],
   credentials: true
 }));
 

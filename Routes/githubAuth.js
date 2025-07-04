@@ -43,7 +43,7 @@ router.get(
     passport.authenticate('github', { failureRedirect: '/support/api/auth/signup' }),
     (req, res) => {
         // Frontend me localStorage me token save karne ke liye redirect kare
-        res.redirect('http://localhost:5173'); // ✅ frontend home page
+        res.redirect('https://stirring-pithivier-5bafe2.netlify.app/'); // ✅ frontend home page
     }
 );
 
